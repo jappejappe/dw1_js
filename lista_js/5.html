@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let preco = Number(prompt("preço: "))
+        let qnt = Number(prompt("quantidade: "))
+        let sDesc = preco * qnt
+        let cDesc = sDesc - (sDesc * 0.05)
+        if(qnt > 10) {
+            alert("preço com desconto: " + cDesc)
+        } else {
+            alert("preço total: " + sDesc)
+        }
+    </script>
+</body>
+</html>
